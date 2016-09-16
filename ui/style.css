@@ -1,22 +1,18 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+#f
+{
+background:#fdc450;
+height:30px;
+width:100px;
+color:white;
+text-align:center;
 }
+a
+{
+color:white;
+text-decoration:none;
 
-.center {
-    text-align: center;
 }
-
-.text-big {
-    font-size: 300%;
+li
+{display:inline;
+padding:0px 10px 0px 10px;
 }
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
