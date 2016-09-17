@@ -33,6 +33,11 @@ background:#fdc450;
 height:30px;
 font-size:20px;
 }
+li
+{display:inline;
+padding:0px 10px 0px 10px;
+}
+
 h4
 {
 background:black;
