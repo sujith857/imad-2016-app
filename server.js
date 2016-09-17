@@ -19,7 +19,7 @@ var articleOne = {
                 
                 
 
-function Createtemplate(data){
+function CreateTemplate(data) {
 var title=data.title;
 var heading=data.heading;
 var date=data.date;
@@ -50,7 +50,7 @@ var htmltemplate=`
                 </div>
     </div>
     </body>
-</html>`;
+</html>`
 return htmltemplate;
     
 }
@@ -67,7 +67,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/article-one', function (req, res) {
-  res.send(createtemplate(articleOne));
+  res.send(createTemplate(articleOne));
 });
 app.get('/article-two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
