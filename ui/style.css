@@ -54,7 +54,7 @@ position:relative;
 .container{
   margin: 0 auto;
   max-width:800px;
-  position:relative;
+  position:absolute;
   padding:50px;
   color:red;
 }
