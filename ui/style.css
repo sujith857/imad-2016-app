@@ -1,18 +1,48 @@
-#f
-{
-background:#fdc450;
-height:30px;
-width:100px;
-color:white;
-text-align:center;
-}
-a
-{
-color:white;
-text-decoration:none;
 
+body{
+text-align:center;
+background:url(" https://i.ytimg.com/vi/ETDz5z46Loo/maxresdefault.jpg  ");
+background-size:cover;
+background-position:center;
+color:white;
+}
+img{
+margin:40px 0px 0px 0px;
+border:7px blue;
+}
+span
+{
+color:#ffd480;
+}
+input
+{
+padding:10px;
+
+}
+input[type="submit"]
+{
+background:red;
+color:white;
 }
 li
 {display:inline;
 padding:0px 10px 0px 10px;
+}
+ul{
+background:#fdc450;
+height:30px;
+font-size:20px;
+}
+h4
+{
+background:black;
+height:30px;
+}
+
+a{
+color:green;
+position:absolute;
+}
+#f{
+position:absolute;
 }
