@@ -50,7 +50,7 @@ var htmltemplate=`
                 </div>
     </div>
     </body>
-</html>`
+</html>`;
 return htmltemplate;
     
 }
