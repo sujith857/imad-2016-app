@@ -43,7 +43,7 @@ var htmltemplate=`
         <h3>${heading}</h3>
         
         <div>
-        Sept 17,2016
+        ${date}
         </div>
                 <div>
                 ${content}
