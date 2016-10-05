@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 var articles ={
     
-article-one :{
+'article-one' :{
     title:'Article One',
     heading:'Articleone',
     date:'19 sept 2016',
@@ -17,7 +17,7 @@ article-one :{
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
                 },
-article-two :{
+'article-two' :{
     title:'Article Two',
     heading:'Articletwo',
     date:'20 sept 2016',
@@ -28,7 +28,7 @@ article-two :{
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
                 },
-article-three :{
+'article-three' :{
     title:'Article Three',
     heading:'Articlethree',
     date:'21 sept 2016',
@@ -38,7 +38,7 @@ article-three :{
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
-                },
+                }
         
 };    
                 
@@ -92,7 +92,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
 app.get('/:articleName', function (req, res) {
-  var  articleName=res.params.articleName;
+  var  articleName=req.params.articleName;
   res.send(createTemplate(articles[articleName]));
 });
 
