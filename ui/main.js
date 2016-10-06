@@ -16,8 +16,9 @@ var request=new XMLHttpRequest();//create a request
             
             }
         }
-       request.open('GET','http://sujith857.imad.hasura-app.io/counter',true);
-       request.response(null);
-        
     };
+       request.open('GET','http://sujith857.imad.hasura-app.io/counter',true);
+       request.send(null);
+        
+    
 };
