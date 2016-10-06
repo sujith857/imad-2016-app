@@ -14,6 +14,7 @@ button.onclick = function()
             
             }
         };
-       
+       request.open('GET','http://sujith857.imad.hasura-app.io/counter',true);
+       request.response(null);
         
     };
