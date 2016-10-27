@@ -15,14 +15,14 @@ var articles ={
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
-                This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
+                This is my first paragaraph of article oneThis is my first paragaraph of article one</p>
                 
-        
-             <textarea name>='comment' id='comment1'></textarea><br />
-              <input type="submit" id="comment_btn1" value="Submit" class="btn btn-warning"></input>
+        <label>Comment below</label>
+             <textarea name='comment' id='comment1'></textarea><br />
+              <input type="submit" id="comment_btn1" value="Submit" class="btn btn-warning">
               <hr>
               <p>Comments :</p><br>
-              <div id="comments1"></div>
+              <div id="comments1"></div>`
               
                 },
 'article-two' :{
