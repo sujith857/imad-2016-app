@@ -18,7 +18,7 @@ var articles ={
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
                 
         
-             <textarea name='comment' id='comment1'></textarea><br />
+             <textarea name>='comment' id='comment1'></textarea><br />
               <input type="submit" id="comment_btn1" value="Submit" class="btn btn-warning"></input>
               <hr>
               <p>Comments :</p><br>
