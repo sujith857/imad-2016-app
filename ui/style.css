@@ -59,7 +59,7 @@ position:relative;
   color:red;
 }
 #a{
-    
+    display:inline-block;
     margin-left:300px;
 }
 
