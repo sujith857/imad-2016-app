@@ -29,4 +29,4 @@ commentBtn.onclick = function (){
     };
    request.open('GET','http://silentarrowz.imad.hasura-app.io/submit_comment?comment='+comment,true);
    request.send(null);
-
+};//
