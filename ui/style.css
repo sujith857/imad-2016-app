@@ -59,7 +59,7 @@ position:relative;
   color:red;
 }
 #a{
-    position:relative;
-    margin-left:300px;
+    position:left;
+    margin-right:300px;
 }
 
