@@ -16,6 +16,14 @@ var articles ={
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
+                
+        <label>Enter comments below</label></br>
+             <textarea name='comment' id='comment1'></textarea><br />
+              <input type="submit" id="comment_btn1" value="Submit" class="btn btn-warning"></input>
+              <hr>
+              <p>Comments :</p><br>
+              <div id="comments1"></div>
+              
                 },
 'article-two' :{
     title:'Article Two',
@@ -27,6 +35,14 @@ var articles ={
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
+                /*
+        <label>Enter comments below</label></br>
+             <textarea name='comment' id='comment1'></textarea><br />
+              <input type="submit" id="comment_btn1" value="Submit" class="btn btn-warning"></input>
+              <hr>
+              <p>Comments :</p><br>
+              <div id="comments1"></div>
+              */
                 },
 'article-three' :{
     title:'Article Three',
@@ -38,6 +54,14 @@ var articles ={
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>
                 <p>This is my first paragaraph of article one This is my first paragaraph of article one This is my first paragaraph of article one 
                 This is my first paragaraph of article oneThis is my first paragaraph of article one</p>`
+                /*
+        <label>Enter comments below</label></br>
+             <textarea name='comment' id='comment1'></textarea><br />
+              <input type="submit" id="comment_btn1" value="Submit" class="btn btn-warning"></input>
+              <hr>
+              <p>Comments :</p><br>
+              <div id="comments1"></div>
+              */
                 }
         
 };    
